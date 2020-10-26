@@ -1,0 +1,6 @@
+import numpy as np
+A=np.random.randint(10, size=(1000,1000))
+#A=np.random.randint(10, size=(10,10)) #Matrice de taille 10x10 de nombres aléatoires entre 0 et 9
+
+print(A)
+np.sum(A) #Somme des elements de cette matrice
