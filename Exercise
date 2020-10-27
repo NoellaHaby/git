@@ -1,0 +1,28 @@
+#Exercise1
+
+import numpy as np
+#A=np.random.randint(10, size=(10,10)) #Matrix of size 10x10 of random numbers between 0 and 9
+A=np.random.randint(10, size=(1000,1000))
+
+print(A)
+np.sum(A) #Sum of all the elements in the matrix
+
+#Exercise2
+
+#One-hot encoding of the columns i and j
+
+df_dummies = pd.get_dummies(df, prefix='', prefix_sep='', 
+                            columns=['i', 'j'])
+df_dummies.head()
+
+#Exercise3
+
+Algorithm
+input:
+int: graph
+output: 
+circular graph
+debut:
+IF subsets -> circular graph THEN graph=circular graph
+endIF
+end 
